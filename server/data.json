@@ -1,0 +1,251 @@
+{
+  "clients": [
+    {
+      "id": "c1",
+      "name": "Ali Traders",
+      "email": "ali@traders.pk",
+      "phone": "+92 300 1234567",
+      "role": "client"
+    },
+    {
+      "id": "e1",
+      "name": "Hamza (Lead Editor)",
+      "email": "hamza@media.pk",
+      "phone": "+92 321 7654321",
+      "role": "editor"
+    },
+    {
+      "id": "c_1793031518133",
+      "name": "Khaadi Brands",
+      "email": "media@khaadi.com",
+      "phone": "+92 300 8889999",
+      "role": "client"
+    },
+    {
+      "id": "c_1793031585894",
+      "name": "Akmaloo",
+      "email": "mrizharulhaq583@gmail.com",
+      "phone": "+92 3167097583",
+      "role": "client"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1",
+      "clientId": "c1",
+      "title": "Winter Brand Campaign 2026",
+      "clientName": "Ali Traders",
+      "status": "active",
+      "createdAt": "2026-10-10"
+    },
+    {
+      "id": "p_1793031518133",
+      "clientId": "c_1793031518133",
+      "title": "Winter Shawls 2026",
+      "clientName": "Khaadi Brands",
+      "status": "active",
+      "createdAt": "2026-10-26"
+    },
+    {
+      "id": "p_1793031585894",
+      "clientId": "c_1793031585894",
+      "title": "Brand Shoot",
+      "clientName": "Akmaloo",
+      "status": "active",
+      "createdAt": "2026-10-26"
+    }
+  ],
+  "shootDays": [
+    {
+      "id": "sd1",
+      "projectId": "p1",
+      "dayNumber": 1,
+      "title": "Shoot Day 1 - Factory & Warehouse",
+      "date": "2026-10-15",
+      "deliverablesCount": 2
+    },
+    {
+      "id": "sd2",
+      "projectId": "p1",
+      "dayNumber": 2,
+      "title": "Shoot Day 2 - Karachi Street Showcase",
+      "date": "2026-10-18",
+      "deliverablesCount": 2
+    },
+    {
+      "id": "sd3",
+      "projectId": "p1",
+      "dayNumber": 3,
+      "title": "Shoot Day 3 - Studio Macro Shots",
+      "date": "2026-10-22",
+      "deliverablesCount": 1
+    },
+    {
+      "id": "sd_1793031518133_1",
+      "projectId": "p_1793031518133",
+      "dayNumber": 1,
+      "title": "Shoot Day 1 - Khaadi Brands",
+      "date": "2026-10-26",
+      "deliverablesCount": 0
+    },
+    {
+      "id": "sd_1793031518133_2",
+      "projectId": "p_1793031518133",
+      "dayNumber": 2,
+      "title": "Shoot Day 2 - Khaadi Brands",
+      "date": "2026-10-29",
+      "deliverablesCount": 0
+    },
+    {
+      "id": "sd_1793031518133_3",
+      "projectId": "p_1793031518133",
+      "dayNumber": 3,
+      "title": "Shoot Day 3 - Khaadi Brands",
+      "date": "2026-11-01",
+      "deliverablesCount": 0
+    },
+    {
+      "id": "sd_1793031585894_1",
+      "projectId": "p_1793031585894",
+      "dayNumber": 1,
+      "title": "Shoot Day 1 - Akmaloo",
+      "date": "2026-10-26",
+      "deliverablesCount": 0
+    },
+    {
+      "id": "sd_1793031585894_2",
+      "projectId": "p_1793031585894",
+      "dayNumber": 2,
+      "title": "Shoot Day 2 - Akmaloo",
+      "date": "2026-10-29",
+      "deliverablesCount": 0
+    },
+    {
+      "id": "sd_1793031585894_3",
+      "projectId": "p_1793031585894",
+      "dayNumber": 3,
+      "title": "Shoot Day 3 - Akmaloo",
+      "date": "2026-11-01",
+      "deliverablesCount": 0
+    }
+  ],
+  "deliverables": [
+    {
+      "id": "d_1793031133098",
+      "shootDayId": "sd1",
+      "title": "WhatsApp Video 2026-10-14 at 1.02.40 AM",
+      "version": 1,
+      "status": "Ready for Review",
+      "videoUrl": "/uploads/video-1793031132623-297913694.mp4",
+      "fileSizeBytes": 1741825,
+      "durationSeconds": 30,
+      "uploadedAt": "2026-10-26T16:12:13.098Z",
+      "uploadedBy": "Hamza (Lead Editor)"
+    },
+    {
+      "id": "d1",
+      "shootDayId": "sd2",
+      "title": "Reel_01_Cinematic_Showcase",
+      "version": 1,
+      "status": "Ready for Review",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "fileSizeBytes": 15400000,
+      "durationSeconds": 15,
+      "uploadedAt": "2026-10-26T12:00:00Z",
+      "uploadedBy": "Hamza (Lead Editor)"
+    },
+    {
+      "id": "d2",
+      "shootDayId": "sd2",
+      "title": "Reel_02_Street_Ambience_Cut",
+      "version": 1,
+      "status": "Revision Needed",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "fileSizeBytes": 22100000,
+      "durationSeconds": 15,
+      "uploadedAt": "2026-10-25T15:30:00Z",
+      "uploadedBy": "Hamza (Lead Editor)"
+    },
+    {
+      "id": "d3",
+      "shootDayId": "sd1",
+      "title": "Main_Commercial_60s",
+      "version": 2,
+      "status": "Approved",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "fileSizeBytes": 65000000,
+      "durationSeconds": 60,
+      "uploadedAt": "2026-10-24T18:00:00Z",
+      "uploadedBy": "Hamza (Lead Editor)"
+    }
+  ],
+  "comments": [
+    {
+      "id": "com1",
+      "deliverableId": "d2",
+      "authorType": "client",
+      "authorName": "Ali Traders",
+      "timestampSeconds": 6,
+      "content": "Logo thora chota karein aur audio fade-in soft rakhein.",
+      "resolved": false,
+      "createdAt": "2026-10-26T14:15:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n_1793031133098",
+      "recipientType": "client",
+      "title": "Nayi Video Ready Hai!",
+      "message": "Hamza (Lead Editor) ne nayi video \"WhatsApp Video 2026-10-14 at 1.02.40 AM\" review ke liye upload ki hai.",
+      "deliverableId": "d_1793031133098",
+      "isRead": false,
+      "createdAt": "2026-10-26T16:12:13.098Z"
+    },
+    {
+      "id": "n1",
+      "recipientType": "editor",
+      "title": "Naya Comment",
+      "message": "Ali Traders ne Reel_02 par comment kiya [0:06]",
+      "deliverableId": "d2",
+      "isRead": false,
+      "createdAt": "2026-10-26T14:15:00Z"
+    }
+  ],
+  "deliveryLogs": [
+    {
+      "id": "l_1793031585894",
+      "action": "CLIENT_CREATED",
+      "title": "New client added: Akmaloo (Brand Shoot)",
+      "userName": "Ali Traders",
+      "timestamp": "2026-10-26T16:19:45.894Z"
+    },
+    {
+      "id": "l_1793031518133",
+      "action": "CLIENT_CREATED",
+      "title": "New client added: Khaadi Brands (Winter Shawls 2026)",
+      "userName": "Ali Traders",
+      "timestamp": "2026-10-26T16:18:38.133Z"
+    },
+    {
+      "id": "l_1793031133098",
+      "action": "UPLOAD",
+      "title": "WhatsApp Video 2026-10-14 at 1.02.40 AM (v1) uploaded",
+      "userName": "Hamza (Lead Editor)",
+      "timestamp": "2026-10-26T16:12:13.098Z"
+    },
+    {
+      "id": "l1",
+      "action": "UPLOAD",
+      "title": "Reel_01_Cinematic_Showcase (v1)",
+      "userName": "Hamza (Lead Editor)",
+      "timestamp": "2026-10-26T12:00:00Z"
+    },
+    {
+      "id": "l2",
+      "action": "COMMENT",
+      "title": "Comment added on Reel_02 at [0:06]",
+      "userName": "Ali Traders",
+      "timestamp": "2026-10-26T14:15:00Z"
+    }
+  ]
+}
